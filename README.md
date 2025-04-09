@@ -22,7 +22,7 @@ Este proyecto es una API REST para la gestión de clientes, desarrollada con **S
 
 ### 1) Clonar el repositorio
 ```bash
-git clone https://github.com/tuusuario/clientes.git
+git clone https://github.com/juanjodev27/clientes.git
 cd clientes
 
 ### 2) Configurar Postgresql
