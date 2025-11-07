@@ -21,9 +21,8 @@ Este proyecto es una API REST para la gestión de clientes, desarrollada con **S
 ## ⚙️ Instalación y configuración
 
 ### 1) Clonar el repositorio
-```bash
-git clone https://github.com/juanjodev27/clientes.git
-cd clientes
+git clone https://github.com/juanjodev27/Crud-clientes.git
+cd Crud-clientes
 
 ### 2) Configurar Postgresql
 CREATE DATABASE clientes_db;
@@ -39,12 +38,12 @@ mvn spring-boot:run
 
 ## Endpoints de la API
 
-Método	  Endpoint	            Descripción
-GET	       /clientes       	Obtener todos los clientes
-GET   	  /clientes/{id}	  Obtener un cliente por ID
-POST	   /clientes/crear	  Crear un nuevo cliente
-PUT   	 /clientes/{id}	    Actualizar un cliente
-DELETE	  /clientes/{id}	   Eliminar un cliente
+Método	  Endpoint	               Descripción
+GET	  clientes       	Obtener todos los clientes
+GET   	 /clientes/{id}	        Obtener un cliente por ID
+POST	 /clientes/crear	Crear un nuevo cliente
+PUT   	 /clientes/{id}	        Actualizar un cliente
+DELETE	 /clientes/{id}	        Eliminar un cliente
 
-AUTOR
+      AUTOR
 Juan Jose Garcete
