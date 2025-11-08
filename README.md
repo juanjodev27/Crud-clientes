@@ -7,43 +7,64 @@ Este proyecto es una API REST para la gestión de clientes, desarrollada con **S
 - **Java 17**
 - **Spring Boot 3.4.2**
 - **Spring Data JPA**
-- **PostgreSQL**
-- **Maven**
+- **Pos# 🧑‍💼 CRUD de Clientes con Spring Boot y PostgreSQL
 
-## 📌 Características
+Este proyecto es una **API REST** para la gestión de clientes, desarrollada con **Spring Boot** y **PostgreSQL**.  
+Permite realizar operaciones **CRUD** (Crear, Leer, Actualizar y Eliminar) sobre los clientes.
 
-- Listar todos los clientes.
-- Obtener un cliente por su ID.
-- Crear un nuevo cliente.
-- Actualizar datos de un cliente existente.
-- Eliminar un cliente.
+---
+
+## 🚀 Tecnologías utilizadas
+
+- ☕ **Java 17**
+- 🌱 **Spring Boot 3.4.2**
+- 🗄️ **Spring Data JPA**
+- 🐘 **PostgreSQL**
+- 🔧 **Maven**
+
+---
+
+## 📋 Características principales
+
+- Listar todos los clientes  
+- Obtener un cliente por su ID  
+- Crear un nuevo cliente  
+- Actualizar los datos de un cliente existente  
+- Eliminar un cliente  
+
+---
 
 ## ⚙️ Instalación y configuración
 
-### 1) Clonar el repositorio
-git clone https://github.com/juanjodev27/Crud-clientes.git
-cd Crud-clientes
+### 1️⃣ Clonar el repositorio
 
-### 2) Configurar Postgresql
+```bash
+git clone https://github.com/juanjodev27/clientes.git
+cd clientes
+
+### Configurar Postgresql
 CREATE DATABASE clientes_db;
 
-### 3) Configurar application.properties
+### Configurar application.properties
 spring.datasource.url=jdbc:postgresql://localhost:5432/clientes_db
 spring.datasource.username=tu_usuario
 spring.datasource.password=tu_contraseña
 spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
 
-### 4) Construir y ejecutar el proyecto
+### Ejecutar el proyecto
 mvn spring-boot:run
 
-## Endpoints de la API
+La API se ejecutará en: http://localhost:8080
 
-Método	  Endpoint	               Descripción
-GET	  clientes       	Obtener todos los clientes
-GET   	 /clientes/{id}	        Obtener un cliente por ID
-POST	 /clientes/crear	Crear un nuevo cliente
-PUT   	 /clientes/{id}	        Actualizar un cliente
-DELETE	 /clientes/{id}	        Eliminar un cliente
+Endpoint de la API
+| Método | Endpoint          | Descripción                |
+| :----- | :---------------- | :------------------------- |
+| GET    | `/clientes`       | Obtener todos los clientes |
+| GET    | `/clientes/{id}`  | Obtener un cliente por ID  |
+| POST   | `/clientes/crear` | Crear un nuevo cliente     |
+| PUT    | `/clientes/{id}`  | Actualizar un cliente      |
+| DELETE | `/clientes/{id}`  | Eliminar un cliente        |
 
-      AUTOR
-Juan Jose Garcete
+Autor
+juan jose garcete
