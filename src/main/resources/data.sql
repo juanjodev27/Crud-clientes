@@ -1,0 +1,16 @@
+INSERT INTO cliente (nombre, email, edad, direccion) VALUES
+('Juan Jose', 'juan@gmail.com', 31, 'Areguá'),
+('Maria Lopez', 'maria@gmail.com', 28, 'Luque'),
+('Carlos Díaz', 'carlos@gmail.com', 40, 'San Lorenzo'),
+('Ana Rojas', 'ana@gmail.com', 22, 'Asunción'),
+('Pedro Vera', 'pedro@gmail.com', 35, 'Capiatá'),
+('Laura Gomez', 'laura@gmail.com', 27, 'Itauguá'),
+('Luis Martinez', 'luis@gmail.com', 33, 'Ypacaraí'),
+('Marta Riveros', 'marta@gmail.com', 30, 'Caacupé'),
+('Hugo Pérez', 'hugo@gmail.com', 42, 'Encarnación'),
+('Rosa Benítez', 'rosa@gmail.com', 29, 'Coronel Oviedo'),
+('Diego Torres', 'diego@gmail.com', 25, 'Villarrica'),
+('Claudia Ortiz', 'claudia@gmail.com', 38, 'Lambaré'),
+('Roberto López', 'roberto@gmail.com', 45, 'San Ignacio'),
+('Elena Duarte', 'elena@gmail.com', 32, 'Caaguazú'),
+('Andrés Acosta', 'andres@gmail.com', 36, 'Itá');
